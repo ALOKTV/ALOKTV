@@ -52,9 +52,9 @@ I'm a passionate software developer with experience in building scalable and inn
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ALOKTV&show_icons=true&theme=dark&bg_color=0d1117&text_color=c9d1d9&title_color=58a6ff)
+[![GitHub Stats](https://github-readme-stats-aloktv.vercel.app/api?username=ALOKTV&show_icons=true&theme=github_dark&hide=stars&include_all_commits=true)](https://github.com/ALOKTV)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ALOKTV&layout=compact&theme=dark&bg_color=0d1117&text_color=c9d1d9)
+[![Top Languages](https://github-readme-stats-aloktv.vercel.app/api/top-langs/?username=ALOKTV&layout=compact&theme=github_dark&langs_count=8)](https://github.com/ALOKTV)
 
 </div>
 
@@ -81,6 +81,11 @@ Personal portfolio website showcasing projects
 AI-powered resume enhancement tool
 - **Tech Stack**: Python, NLP
 - **Highlights**: Career advancement tool
+
+### 🏴 [Hot Key](https://github.com/ALOKTV/Hot_key)
+Keyboard shortcut management utility
+- **Tech Stack**: Python
+- **Highlights**: Productivity enhancement
 
 ---
 
