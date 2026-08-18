@@ -20,20 +20,22 @@
       <h2 align="center">ALOKTV</h2>
       <p align="center"><em>Full-Stack Software Engineer</em></p>
 
-      <p>
-      📍 Shimoga, India<br>
-      ☎ +91 6362117360<br>
-      ✉ <a href="mailto:aloktvalok@gmail.com">aloktvalok@gmail.com</a><br>
-      🔗 <a href="https://www.linkedin.com/in/alok-tv-2301ba237">LinkedIn</a>
+      <p align="center">
+      📍 Shimoga, India  
+      ☎ +91 6362117360  
+      ✉ [aloktvalok@gmail.com](mailto:aloktvalok@gmail.com)  
+      🔗 [LinkedIn](https://www.linkedin.com/in/alok-tv-2301ba237)
       </p>
 
-      <hr/>
+      ---
 
       <details>
       <summary><strong>Highlights</strong></summary>
-      - 3 years building scalable server-side systems<br>
-      - Node.js, TypeScript, Supabase, Firebase<br>
-      - CI/CD, BigQuery, ML pipelines
+
+- 3 years building scalable server-side systems
+- Node.js, TypeScript, Supabase, Firebase
+- CI/CD, BigQuery, ML pipelines
+
       </details>
     </td>
 
