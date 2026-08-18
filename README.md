@@ -5,7 +5,7 @@
 </div>
 
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alok-tv-2301ba237) [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aloktvalok@gmail.com) [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ALOKTV)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alok-tv-2301ba237) [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aloktvalok@gmail.com)
 
 ---
 
@@ -21,34 +21,6 @@ Full Stack Software Engineer with 3 years of experience designing and maintainin
 - Languages: JavaScript (ES6+), TypeScript, Python, Java, SQL
 - Data & Tools: BigQuery, GrowthBook, Periscope, Git, GitHub Actions (CI/CD), Postman, Jira, Android Studio
 - Frontend: React.js, HTML5, CSS3, Responsive Design
-
----
-
-## 📊 GitHub Statistics
-
-<!-- Design: keep the visual layout similar to your old README — stats on the right -->
-<div style="display:flex; align-items:flex-start; gap:20px;">
-
-<!-- Left column: title and short note -->
-<div style="flex:1;">
-
-### GitHub Statistics
-
-A snapshot of my GitHub activity and most-used languages.
-
-</div>
-
-<!-- Right column: stats cards stacked like the screenshot -->
-<div style="width:360px; text-align:right;">
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ALOKTV&show_icons=true&theme=github_dark&include_all_commits=true)](https://github.com/ALOKTV)
-
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ALOKTV&layout=compact&theme=github_dark&langs_count=8)](https://github.com/ALOKTV)
-
-</div>
-
-</div>
 
 ---
 
@@ -89,7 +61,7 @@ Bachelor of Computer Applications (BCA) — S R Nagappa Shetty Memorial National
 
 If you'd like this to match the screenshot even more closely (fonts/spacing), I can:
 - Add a small header image or divider graphic and host it in the repo, or
-- Move the stats into a right-aligned column with exact pixel spacing, or
-- Replace the stats cards with self-hosted PNGs to avoid external service styling differences.
+- Replace the stats cards with self-hosted PNGs to avoid external service styling differences, or
+- Fine-tune pixel spacing, widths, and alignment to match the screenshot exactly.
 
 Tell me which option you want and I'll apply it.
