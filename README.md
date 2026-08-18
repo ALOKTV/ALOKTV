@@ -1,14 +1,21 @@
-# Alok T — Full Stack Software Engineer
+# Hi 👋, I'm ALOKTV
 
-Shimoga, India | +91 6362117360 | [aloktvalok@gmail.com](mailto:aloktvalok@gmail.com) | [LinkedIn](https://www.linkedin.com/in/alok-tv-2301ba237) | [github.com/ALOKTV](https://github.com/ALOKTV)
+<div>
+<span>Shimoga, India | +91 6362117360 | <a href="mailto:aloktvalok@gmail.com">aloktvalok@gmail.com</a> | <a href="https://www.linkedin.com/in/alok-tv-2301ba237">LinkedIn</a> | <a href="https://github.com/ALOKTV">github.com/ALOKTV</a></span>
+</div>
+
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alok-tv-2301ba237) [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aloktvalok@gmail.com) [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ALOKTV)
 
 ---
 
-## SUMMARY
+## 👨‍💻 Summary
 
-Full Stack Software Engineer with 3 years of experience designing and maintaining scalable server-side systems, REST APIs, and databases. Proficient in Node.js, TypeScript, Supabase (PostgreSQL), and Firebase. Hands-on experience with database migration, security policy enforcement (RLS), automation scripting, CI/CD pipelines, and analytics using Python and BigQuery.
+Full Stack Software Engineer with 3 years of experience designing and maintaining scalable server-side systems, REST APIs, and databases. Proficient in Node.js, TypeScript, Supabase (PostgreSQL), and Firebase. Hands-on experience with database migration, Row Level Security (RLS), automation scripting, CI/CD pipelines, and analytics using Python and BigQuery.
 
-## TECHNICAL SKILLS
+---
+
+## 🛠️ Tech Stack
 
 - Backend: Node.js, REST API Design, Supabase (PostgreSQL), Firebase, Row Level Security (RLS), TypeScript
 - Languages: JavaScript (ES6+), TypeScript, Python, Java, SQL
@@ -17,17 +24,35 @@ Full Stack Software Engineer with 3 years of experience designing and maintainin
 
 ---
 
-## GitHub Statistics (optional)
+## 📊 GitHub Statistics
 
-If you'd like GitHub stats on your profile, I added working links below that use the official readme-stats service. If you prefer to remove stats completely, tell me and I'll delete this section.
+<!-- Design: keep the visual layout similar to your old README — stats on the right -->
+<div style="display:flex; align-items:flex-start; gap:20px;">
+
+<!-- Left column: title and short note -->
+<div style="flex:1;">
+
+### GitHub Statistics
+
+A snapshot of my GitHub activity and most-used languages.
+
+</div>
+
+<!-- Right column: stats cards stacked like the screenshot -->
+<div style="width:360px; text-align:right;">
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ALOKTV&show_icons=true&theme=github_dark&include_all_commits=true)](https://github.com/ALOKTV)
 
+
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ALOKTV&layout=compact&theme=github_dark&langs_count=8)](https://github.com/ALOKTV)
+
+</div>
+
+</div>
 
 ---
 
-## EXPERIENCE
+## 💼 Experience
 
 **Software Engineer — Chimple Learning (CUBA App)** — Bengaluru, India | 2022 – Present
 
@@ -40,7 +65,9 @@ If you'd like GitHub stats on your profile, I added working links below that use
 - Built Python scripts for GrowthBook A/B experiment analysis and Periscope dashboards using BigQuery data.
 - Deployed features via GitHub Actions CI/CD pipeline and collaborated in Agile sprints using Jira and GitHub PRs.
 
-## PROJECTS
+---
+
+## 🚀 Projects
 
 **Automatic Textile Stain Detection** — Python, YOLOv5, Computer Vision
 
@@ -52,13 +79,17 @@ If you'd like GitHub stats on your profile, I added working links below that use
 - Aggregated job listings from multiple platforms with filters for skills, experience, and location using REST APIs and a Node.js backend.
 - Designed modular, reusable backend architecture to allow seamless integration of additional job platforms in the future.
 
-## EDUCATION
+---
+
+## 🎓 Education
 
 Bachelor of Computer Applications (BCA) — S R Nagappa Shetty Memorial National College, Shivamogga | 2022
 
 ---
 
-If you'd like further edits I can:
-- Remove the GitHub stats cards entirely (if you prefer not to use third-party services), or
-- Self-host static images in the repo and link to them to avoid external service outages, or
-- Add a downloadable PDF resume in the repository and link it from this README.
+If you'd like this to match the screenshot even more closely (fonts/spacing), I can:
+- Add a small header image or divider graphic and host it in the repo, or
+- Move the stats into a right-aligned column with exact pixel spacing, or
+- Replace the stats cards with self-hosted PNGs to avoid external service styling differences.
+
+Tell me which option you want and I'll apply it.
