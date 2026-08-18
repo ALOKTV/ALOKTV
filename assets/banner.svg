@@ -12,33 +12,29 @@
     <rect x="0" y="0" width="1128" height="176" rx="22" fill="#071627" filter="url(#bigShadow)"/>
     <rect x="6" y="6" width="1116" height="164" rx="16" fill="rgba(255,255,255,0.02)"/>
 
-    <!-- avatar with metallic rim (uses GitHub avatar) -->
+    <!-- avatar placeholder with metallic rim (no external image inside SVG) -->
     <g transform="translate(40,26)">
       <circle cx="80" cy="80" r="70" fill="#062736" filter="url(#avatarShadow)"/>
       <circle cx="80" cy="80" r="66" fill="url(#rim)"/>
-      <defs>
-        <clipPath id="avClip"><circle cx="80" cy="80" r="60"/></clipPath>
-      </defs>
-      <image xlink:href="https://github.com/ALOKTV.png" x="20" y="20" width="120" height="120" preserveAspectRatio="xMidYMid slice" clip-path="url(#avClip)" />
+      <!-- initials fallback instead of embedding external image (SVGs with external images may be blocked) -->
+      <circle cx="80" cy="80" r="60" fill="#082a33"/>
+      <text x="80" y="96" font-family="Segoe UI, Roboto, Arial" font-size="40" text-anchor="middle" fill="#cfeeff">A</text>
       <circle cx="80" cy="80" r="60" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
     </g>
 
-    <!-- text block -->
+    <!-- text block (plain text only, no HTML tags inside SVG) -->
     <g transform="translate(220,48)">
       <text x="0" y="22" font-family="Segoe UI, Roboto, Arial" font-size="40" font-weight="700" fill="#eaf9ff" style="letter-spacing:0.6px">ALOKTV</text>
       <text x="0" y="54" font-family="Segoe UI, Roboto, Arial" font-size="16" fill="#9db6c6">Full-Stack Software Engineer</text>
-      <text x="0" y="80" font-family="Segoe UI, Roboto, Arial" font-size="13" fill="#88a2b2">Shimoga, India  •  +91 6362117360  •  <a href='mailto:aloktvalok@gmail.com'>aloktvalok@gmail.com</a></text>
+      <text x="0" y="80" font-family="Segoe UI, Roboto, Arial" font-size="13" fill="#88a2b2">Shimoga, India  •  +91 6362117360  •  aloktvalok@gmail.com</text>
 
-      <!-- sleek glass buttons -->
+      <!-- sleek glass buttons (text only, no anchors) -->
       <g transform="translate(0,102)">
-        <a xlink:href="https://github.com/ALOKTV" target="_blank">
-          <rect x="0" y="0" width="150" height="42" rx="10" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.02)"/>
-          <text x="75" y="28" font-family="Segoe UI, Roboto, Arial" font-size="14" fill="#e8f7ff" text-anchor="middle">View Profile</text>
-        </a>
-        <a xlink:href="./RESUME.md" target="_blank">
-          <rect x="170" y="0" width="150" height="42" rx="10" fill="rgba(31,98,140,0.16)" stroke="rgba(255,255,255,0.02)"/>
-          <text x="245" y="28" font-family="Segoe UI, Roboto, Arial" font-size="14" fill="#b9dff9" text-anchor="middle">Download CV</text>
-        </a>
+        <rect x="0" y="0" width="150" height="42" rx="10" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.02)"/>
+        <text x="75" y="28" font-family="Segoe UI, Roboto, Arial" font-size="14" fill="#e8f7ff" text-anchor="middle">View Profile</text>
+
+        <rect x="170" y="0" width="150" height="42" rx="10" fill="rgba(31,98,140,0.16)" stroke="rgba(255,255,255,0.02)"/>
+        <text x="245" y="28" font-family="Segoe UI, Roboto, Arial" font-size="14" fill="#b9dff9" text-anchor="middle">Download CV</text>
       </g>
     </g>
 
