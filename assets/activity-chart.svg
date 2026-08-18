@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240">
+  <defs>
+    <linearGradient id="bg3" x1="0" x2="1"><stop offset="0%" stop-color="#06121a"/><stop offset="100%" stop-color="#071827"/></linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="12" fill="url(#bg3)"/>
+  <g transform="translate(20,20)">
+    <text x="0" y="20" font-family="Segoe UI, Roboto, Arial" font-size="16" fill="#bfe8ff">Activity (last 12 weeks)</text>
+    <g transform="translate(0,36)">
+      <polyline fill="none" stroke="#1f6feb" stroke-width="3" points="0,120 60,90 120,100 180,60 240,70 300,40 360,80 420,60 480,40 540,80 600,50 660,120" />
+      <!-- area fill -->
+      <polyline fill="#0f3b5a" stroke="none" points="0,120 60,90 120,100 180,60 240,70 300,40 360,80 420,60 480,40 540,80 600,50 660,120 660,140 0,140" opacity="0.6"/>
+      <g transform="translate(0,140)">
+        <text x="0" y="18" font-family="Segoe UI, Roboto, Arial" font-size="12" fill="#7f98a4">Weeks →</text>
+      </g>
+    </g>
+  </g>
+</svg>
