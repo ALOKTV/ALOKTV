@@ -1,91 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
   <defs>
-    <linearGradient id="bg" x1="0" x2="1">
-      <stop offset="0%" stop-color="#071021"/>
-      <stop offset="45%" stop-color="#071827"/>
-      <stop offset="100%" stop-color="#081522"/>
-    </linearGradient>
-
-    <linearGradient id="cardGrad" x1="0" x2="1">
-      <stop offset="0%" stop-color="#0f1724"/>
-      <stop offset="100%" stop-color="#0b2230"/>
-    </linearGradient>
-
-    <linearGradient id="shine" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-    </linearGradient>
-
-    <!-- soft outer shadow -->
-    <filter id="outerShadow" x="-50%" y="-50%" width="200%" height="200%">
-      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000000" flood-opacity="0.55"/>
-    </filter>
-
-    <!-- inner shadow for card -->
-    <filter id="innerShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feOffset dx="0" dy="4" result="off"/>
-      <feGaussianBlur in="off" stdDeviation="6" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
-
-    <!-- subtle emboss for text -->
-    <filter id="textEmboss">
-      <feOffset dx="0" dy="1" result="o"/>
-      <feGaussianBlur in="o" stdDeviation="1" result="g"/>
-      <feComposite in="SourceGraphic" in2="g" operator="over"/>
-    </filter>
+    <linearGradient id="bgB" x1="0" x2="1"><stop offset="0%" stop-color="#04121a"/><stop offset="100%" stop-color="#06212b"/></linearGradient>
+    <linearGradient id="rim" x1="0" x2="1"><stop offset="0%" stop-color="#77d2ff"/><stop offset="100%" stop-color="#1fb6ff"/></linearGradient>
+    <filter id="bigShadow"><feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#001420" flood-opacity="0.6"/></filter>
+    <filter id="avatarShadow"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#001827" flood-opacity="0.6"/></filter>
   </defs>
 
-  <!-- background -->
-  <rect width="100%" height="100%" fill="url(#bg)" />
+  <rect width="100%" height="100%" fill="url(#bgB)"/>
 
-  <!-- layered angled panels for 3D depth -->
-  <g transform="translate(40,20)">
-    <rect x="-8" y="24" width="1120" height="180" rx="16" fill="#03111a" transform="skewX(-6)" opacity="0.18" />
-    <rect x="0" y="0" width="1120" height="180" rx="16" fill="url(#cardGrad)" filter="url(#outerShadow)"/>
+  <g transform="translate(36,18)">
+    <rect x="0" y="0" width="1128" height="176" rx="22" fill="#071627" filter="url(#bigShadow)"/>
+    <rect x="6" y="6" width="1116" height="164" rx="16" fill="rgba(255,255,255,0.02)"/>
 
-    <!-- glossy highlight strip -->
-    <rect x="0" y="0" width="1120" height="44" rx="12" fill="url(#shine)" opacity="0.6"/>
-
-    <!-- floating decorative shapes -->
-    <g opacity="0.12" fill="#3fc5ff">
-      <rect x="920" y="22" width="200" height="12" rx="6" transform="rotate(-8 920 22)"/>
-      <rect x="880" y="60" width="120" height="8" rx="4" transform="rotate(-12 880 60)"/>
-      <circle cx="1040" cy="130" r="24"/>
-    </g>
-
-    <!-- avatar placeholder with 3D circle and border -->
-    <g transform="translate(32,20)">
+    <!-- avatar with metallic rim (uses GitHub avatar) -->
+    <g transform="translate(40,26)">
+      <circle cx="80" cy="80" r="70" fill="#062736" filter="url(#avatarShadow)"/>
+      <circle cx="80" cy="80" r="66" fill="url(#rim)"/>
       <defs>
-        <filter id="imgShadow">
-          <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#001827" flood-opacity="0.6"/>
-        </filter>
+        <clipPath id="avClip"><circle cx="80" cy="80" r="60"/></clipPath>
       </defs>
-      <circle cx="80" cy="80" r="68" fill="#0b2230" filter="url(#imgShadow)" />
-      <circle cx="80" cy="80" r="64" fill="#0b2230" stroke="#163242" stroke-width="2"/>
-      <!-- subtle inner highlight -->
-      <circle cx="62" cy="64" r="20" fill="#ffffff" fill-opacity="0.03" />
-      <!-- initials text as avatar fallback -->
-      <text x="80" y="92" font-family="Segoe UI, Roboto, Arial" font-size="34" text-anchor="middle" fill="#9fd8ff">A</text>
+      <image xlink:href="https://github.com/ALOKTV.png" x="20" y="20" width="120" height="120" preserveAspectRatio="xMidYMid slice" clip-path="url(#avClip)" />
+      <circle cx="80" cy="80" r="60" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
     </g>
 
-    <!-- main text -->
+    <!-- text block -->
     <g transform="translate(220,48)">
-      <text x="0" y="18" font-family="Segoe UI, Roboto, Arial" font-size="36" font-weight="700" fill="#e6f4ff" filter="url(#textEmboss)">ALOKTV</text>
-      <text x="0" y="52" font-family="Segoe UI, Roboto, Arial" font-size="18" fill="#9fb6c7">Full-Stack Software Engineer</text>
-      <text x="0" y="78" font-family="Segoe UI, Roboto, Arial" font-size="13" fill="#7f98a4">Shimoga, India  •  +91 6362117360  •  aloktvalok@gmail.com</text>
+      <text x="0" y="22" font-family="Segoe UI, Roboto, Arial" font-size="40" font-weight="700" fill="#eaf9ff" style="letter-spacing:0.6px">ALOKTV</text>
+      <text x="0" y="54" font-family="Segoe UI, Roboto, Arial" font-size="16" fill="#9db6c6">Full-Stack Software Engineer</text>
+      <text x="0" y="80" font-family="Segoe UI, Roboto, Arial" font-size="13" fill="#88a2b2">Shimoga, India  •  +91 6362117360  •  <a href='mailto:aloktvalok@gmail.com'>aloktvalok@gmail.com</a></text>
 
-      <!-- subtle 3D action buttons -->
-      <g transform="translate(0,98)">
-        <rect x="0" y="0" width="140" height="36" rx="8" fill="#1f6feb" />
-        <rect x="0" y="0" width="140" height="36" rx="8" fill="rgba(255,255,255,0.06)" />
-        <text x="70" y="23" font-family="Segoe UI, Roboto, Arial" font-size="14" fill="#ffffff" text-anchor="middle">View Profile</text>
-
-        <rect x="160" y="0" width="140" height="36" rx="8" fill="#0e2b36" stroke="#1c4a5a" />
-        <text x="230" y="23" font-family="Segoe UI, Roboto, Arial" font-size="14" fill="#9fb6c7" text-anchor="middle">Download CV</text>
+      <!-- sleek glass buttons -->
+      <g transform="translate(0,102)">
+        <a xlink:href="https://github.com/ALOKTV" target="_blank">
+          <rect x="0" y="0" width="150" height="42" rx="10" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.02)"/>
+          <text x="75" y="28" font-family="Segoe UI, Roboto, Arial" font-size="14" fill="#e8f7ff" text-anchor="middle">View Profile</text>
+        </a>
+        <a xlink:href="./RESUME.md" target="_blank">
+          <rect x="170" y="0" width="150" height="42" rx="10" fill="rgba(31,98,140,0.16)" stroke="rgba(255,255,255,0.02)"/>
+          <text x="245" y="28" font-family="Segoe UI, Roboto, Arial" font-size="14" fill="#b9dff9" text-anchor="middle">Download CV</text>
+        </a>
       </g>
     </g>
 
+    <!-- decorative glossy stroke -->
+    <rect x="1100" y="18" width="18" height="140" rx="9" fill="rgba(255,255,255,0.02)"/>
   </g>
-
 </svg>

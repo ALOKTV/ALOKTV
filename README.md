@@ -13,47 +13,64 @@
 
 <table>
   <tr>
-    <td valign="top" width="60%">
+    <td valign="top" width="260">
+      <p align="center">
+        <img src="https://github.com/ALOKTV.png" width="120" style="border-radius:50%; box-shadow: 0 12px 30px rgba(0,0,0,0.6); border:4px solid rgba(255,255,255,0.03)"/>
+      </p>
+      <h2 align="center">ALOKTV</h2>
+      <p align="center"><em>Full-Stack Software Engineer</em></p>
 
-### 👋 Summary
+      <p>
+      📍 Shimoga, India<br>
+      ☎ +91 6362117360<br>
+      ✉ <a href="mailto:aloktvalok@gmail.com">aloktvalok@gmail.com</a><br>
+      🔗 <a href="https://www.linkedin.com/in/alok-tv-2301ba237">LinkedIn</a>
+      </p>
 
-Full Stack Software Engineer with 3 years of experience designing and maintaining scalable server-side systems, REST APIs, and databases. Proficient in Node.js, TypeScript, Supabase (PostgreSQL), and Firebase. Hands-on experience with database migration, Row Level Security (RLS), automation scripting, CI/CD pipelines, and analytics using Python and BigQuery.
+      <hr/>
 
-### 🛠️ Tech Stack
-
-- Backend: Node.js, REST API Design, Supabase (PostgreSQL), Firebase, RLS, TypeScript
-- Languages: JavaScript (ES6+), TypeScript, Python, Java, SQL
-- Data & Tools: BigQuery, GrowthBook, Periscope, Git, GitHub Actions, Postman, Jira
-- Frontend: React.js, HTML5, CSS3
-
-### 🚀 Projects
-
-**Automatic Textile Stain Detection** — Python, YOLOv5
-- Built a YOLOv5-based CV pipeline for automated fabric defect and stain detection.
-
-**Job Search Dashboard** — Node.js, REST API
-- Aggregated job listings from multiple platforms with filters for skills, experience and location.
-
+      <details>
+      <summary><strong>Highlights</strong></summary>
+      - 3 years building scalable server-side systems<br>
+      - Node.js, TypeScript, Supabase, Firebase<br>
+      - CI/CD, BigQuery, ML pipelines
+      </details>
     </td>
-    <td valign="top" width="40%">
 
-### 💼 Experience
+    <td valign="top">
 
-**Software Engineer** — Chimple Learning (CUBA App)
-Bengaluru, India | 2022 – Present
+### 👋 About
 
-- Led Firebase → Supabase (PostgreSQL) migration and improved relational querying and scalability.
-- Implemented Redux-based state management and CI/CD pipelines with GitHub Actions.
-- Built Ops Mode automation for bulk onboarding (Excel) — reduced manual effort by ~90%.
+Full Stack Software Engineer with 3 years of experience designing and maintaining scalable server-side systems, REST APIs and relational DBs. Proficient in Node.js, TypeScript, Supabase (Postgres), and Firebase. Experienced in RLS, automation, GitHub Actions and analytics.
 
-### 🎓 Education
+### 🛠 Skills
 
-Bachelor of Computer Applications (BCA)
-S R Nagappa Shetty Memorial National College — 2022
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Postgres](https://img.shields.io/badge/Postgres-336791?style=flat&logo=postgresql&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=flat&logo=googlebigquery&logoColor=white)
 
-### 📎 Quick Links
-- Resume: [Download PDF](https://raw.githubusercontent.com/ALOKTV/ALOKTV/main/RESUME.pdf) (coming soon)
+### 💼 Experience (summary)
+
+**Software Engineer — Chimple Learning (CUBA App)** — Bengaluru, India | 2022 – Present  
+- Led Firebase → Supabase migration and built scalable APIs.  
+- Implemented Redux, CI/CD pipelines with GitHub Actions, and Ops Mode automation.
+
+### 📈 GitHub / Activity
+
+<p>
+  <img src="assets/stats-card.svg" alt="GitHub stats" width="420" style="border-radius:8px; box-shadow: 0 10px 30px rgba(0,0,0,0.6)"/>
+  <img src="assets/top-langs.svg" alt="Top languages" width="280" style="border-radius:8px; box-shadow: 0 10px 30px rgba(0,0,0,0.6)"/>
+</p>
+
+<p>
+  <img src="assets/activity-chart.svg" alt="Activity chart" width="700" style="margin-top:8px; border-radius:6px;"/>
+</p>
+
+### 📎 Links
 - Portfolio: https://github.com/ALOKTV/portfolio
+- Resume: [View / Download](RESUME.md)
 
     </td>
   </tr>
