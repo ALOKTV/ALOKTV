@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0f1724"/>
+      <stop offset="100%" stop-color="#0b1220"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)" />
+  <g transform="translate(40,40)">
+    <rect x="0" y="0" width="160" height="160" rx="12" fill="#ffffff10"/>
+    <text x="190" y="70" font-family="Segoe UI, Roboto, Arial" font-size="36" fill="#ffffff">ALOKTV</text>
+    <text x="190" y="110" font-family="Segoe UI, Roboto, Arial" font-size="18" fill="#9aa4b2">Full-Stack Software Engineer</text>
+    <text x="190" y="140" font-family="Segoe UI, Roboto, Arial" font-size="14" fill="#6b7280">Shimoga, India  •  +91 6362117360  •  aloktvalok@gmail.com</text>
+  </g>
+</svg>
